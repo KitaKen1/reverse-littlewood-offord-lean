@@ -1,0 +1,12 @@
+/.lake/
+/lean/.lake/
+/lean4web/.lake/
+*.olean
+*.ilean
+*.c
+*.o
+.DS_Store
+
+# Local verification output.
+/lean/verification/
+/lean4web/verification/
