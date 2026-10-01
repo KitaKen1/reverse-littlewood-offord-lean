@@ -120,10 +120,10 @@ indices.
 
 For a pair $j$ let $d_j=v_{\mathrm{even}}-v_{\mathrm{odd}}$ be the difference of its even-indexed
 and odd-indexed vectors. Removing the pair from the alternating sum adds $d_j$ to it. Because
-$(x_k)$ is unimodal and $x_p$ is the largest value of its parity, $\operatorname{Re}d_j\ge0$ for all
-$j$ when $\beta\ge0$, and $\operatorname{Re}d_j\le0$ for all $j$ when $\beta<0$. In the second case
+$(x_k)$ is unimodal and $x_p$ is the largest value of its parity, $\mathrm{Re}(d_j)\ge0$ for all
+$j$ when $\beta\ge0$, and $\mathrm{Re}(d_j)\le0$ for all $j$ when $\beta<0$. In the second case
 apply the reflection $z\mapsto-\overline z$, which preserves all norms. From now on the alternating
-sum is $b:=\lvert\beta\rvert\in[0,1]$ and $\operatorname{Re}d_j\ge0$ for all $j$.
+sum is $b:=\lvert\beta\rvert\in[0,1]$ and $\mathrm{Re}(d_j)\ge0$ for all $j$.
 
 ### Step 4. Hereditary deletion and flips
 
@@ -134,7 +134,7 @@ still lie in $[0,1]$ and end at $1$, and Lemma 1 gives
 
 $$\Bigl\lvert b+\sum_{j\in R}d_j\Bigr\rvert\le1\qquad\text{for every set }R\text{ of pairs.}$$
 
-Taking $R$ to be all pairs gives $\sum_j\operatorname{Re}d_j\le1-b$.
+Taking $R$ to be all pairs gives $\sum_j\mathrm{Re}(d_j)\le1-b$.
 
 Changing both signs of every pair in a set $Q$ turns the alternating sign vector
 $(+,-,+,\dots,+)$ into a sign vector whose signed sum is $b+2\sum_{j\in Q}d_j$ (up to the
